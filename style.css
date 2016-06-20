@@ -1,0 +1,64 @@
+body {
+	margin: 0; 
+	padding: 0; 
+	font: 14px/1.3 Lucida Sans Unicode, serif, georgia;  
+	color: #333; 
+}
+
+.loading-p {	
+	width: 18px;
+	height: 18px;
+	background-image: url(/img/loading.gif);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 0 4px;
+	vertical-align: middle;
+}
+
+.captcha {
+	width: 100px;
+	height: 60px;
+	background: #fff;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+}
+
+label {
+	display: inline;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.sorting-radio {
+	overflow: hidden;
+	padding: 5px 0;
+}
+
+.sorting-radio  label {
+	display: inline-block;
+	text-align: center;
+	padding: 3px;
+	background: #337ab7;
+	color: #fff;
+	font-size: 11px;
+	cursor: pointer;
+	margin-right: 4px;
+	opacity: 0.2;
+}
+
+.sorting-radio  label:last-child {
+	margin-right: 0;
+}
+
+.sorting-radio  input[type=radio] {
+	display:none;
+}
+
+.sorting-radio  input[type=radio]:checked + label {
+	opacity: 1;
+}
